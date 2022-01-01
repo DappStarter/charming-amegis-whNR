@@ -1,0 +1,21 @@
+{
+    "name": "wait",
+    "blocks": {
+        "/blockchain/conflux": true,
+        "/blockchain/conflux/solidity": true,
+        "/framework/vanilla": true,
+        "/category/access_control/core-contract_access": true,
+        "/category/access_control/core-contract_runstate": true,
+        "/category/access_control/core-administrator_role": true,
+        "/category/asset_value_tracking/core-token": true,
+        "/category/asset_value_tracking/core-token/supply": "1000000000",
+        "/category/asset_value_tracking/core-token/decimals": "00",
+        "/category/asset_value_tracking/core-token/symbol": "WAIT",
+        "/category/nft/core-custom_nft": true,
+        "/category/nft/core-custom_nft/template": "collectible",
+        "/category/file_storage/core-ipfs": true,
+        "/category/file_storage/core-ipfs/mode": "single",
+        "/category/collection/core-entity": true,
+        "/category/asset_value_tracking/core-token/name": "waitbutwhy"
+    }
+}

@@ -1,0 +1,53 @@
+{
+    "repository": {},
+    "__outputFolder": null,
+    "blocks": [
+        {
+            "category": "access_control",
+            "name": "core-contract_access",
+            "parameters": {}
+        },
+        {
+            "category": "access_control",
+            "name": "core-contract_runstate",
+            "parameters": {}
+        },
+        {
+            "category": "access_control",
+            "name": "core-administrator_role",
+            "parameters": {}
+        },
+        {
+            "category": "asset_value_tracking",
+            "name": "core-token",
+            "parameters": {
+                "supply": "1000000000",
+                "decimals": "00",
+                "symbol": "WAIT",
+                "name": "waitbutwhy"
+            }
+        },
+        {
+            "category": "nft",
+            "name": "core-custom_nft",
+            "parameters": {
+                "template": "collectible"
+            }
+        },
+        {
+            "category": "file_storage",
+            "name": "core-ipfs",
+            "parameters": {
+                "mode": "single"
+            }
+        },
+        {
+            "category": "collection",
+            "name": "core-entity",
+            "parameters": {}
+        }
+    ],
+    "blockchain": "conflux",
+    "language": "solidity",
+    "framework": "vanilla"
+}
